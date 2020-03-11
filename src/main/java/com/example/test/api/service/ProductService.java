@@ -29,15 +29,7 @@ public class ProductService {
         return productRepository.save(product);
     }
 
-    public void delete(Product product) {
-        productRepository.delete(product);
-    }
-
     public void deleteById(Integer id){
         productRepository.deleteById(id);
-    }
-
-    public void deleteAll(){
-        productRepository.deleteAll();
     }
 }

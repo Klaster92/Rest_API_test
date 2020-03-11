@@ -30,10 +30,6 @@ public class ProducerService {
         return producerRepository.save(producer);
     }
 
-    public void delete(Producer producer) {
-        producerRepository.delete(producer);
-    }
-
     public void deleteById(Integer id){
         producerRepository.deleteById(id);
     }
