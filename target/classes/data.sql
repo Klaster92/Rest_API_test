@@ -1,0 +1,2 @@
+INSERT INTO producer(id, inn, kpp, short_name, full_name) VALUES(1, '1234567890', '12345678', 'ООО "Тест"', 'Общество с ограниченной ответственностью "Тест"');
+INSERT INTO product(id, code, original_name, producer_id) VALUES(1, '1253', 'Продукт 1', 1);
